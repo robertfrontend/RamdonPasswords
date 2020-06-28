@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #2c2c54;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .app {
+  width: 40%;
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #40407a;
+  border-radius: 10px;
+}
+
+main .app header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main .app header h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+main .app header small {
+  font-size: 16px;
+  color: #33d9b2 !important;
+  font-weight: bold;
+}
+
+main .app section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+}
+
+main .app section .d-resul {
+  width: 80% !important;
+  cursor: pointer;
+  background: white;
+  padding: 8px;
+  border-radius: 5px;
+  overflow-y: hidden;
+}
+
+main .app section .d-resul #resultado {
+  color: rgba(0, 3, 17, 0.671);
+  margin: 0;
+  font-weight: bold;
+}
+
+main .app section div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+}
+
+main .app section div small {
+  font-size: 16px;
+  color: #33d9b2 !important;
+  font-weight: bold;
+}
+
+main .app section div #cantidad {
+  width: 50% !important;
+}
+
+@media screen and (max-width: 1036px) {
+  main .app {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1036px) and (max-width: 672px) {
+  main .app {
+    padding: 12px;
+  }
+  main .app section .d-resul {
+    width: 100%;
+  }
+}
+
+main .d-alerta {
+  width: auto;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .d-alerta div small {
+  padding: 10px 20px;
+  background: #ff5252;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white !important;
+  border-radius: 8px;
+}
+
+.boton-1 {
+  padding: 10px 100px;
+  border: none;
+  border-radius: 5px;
+  background: #33d9b2b6;
+  color: white;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
