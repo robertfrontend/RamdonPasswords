@@ -13,6 +13,8 @@ class Interfaz {
     }
 }
 
+cantidadInput.value = 8;
+
 
 btnGeneral.addEventListener('click', () => {
 
@@ -38,10 +40,10 @@ btnGeneral.addEventListener('click', () => {
         const newUi = new Interfaz();
         newUi.alerta(`Introduce una cantidad de caracteres`)
 
-    }else if(cantidadInput.value > 30 ){
+    }else if(cantidadInput.value > 50 ){
         // introducir una cantidad menor a 30
         const newUi = new Interfaz();
-        newUi.alerta(`Introduce una cantidad menor a 30`)
+        newUi.alerta(`Introduce una cantidad menor a 50`)
 
     }else if(cantidadInput.value < 8){
         // introducir una cantidad mayor a 8
