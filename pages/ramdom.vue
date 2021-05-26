@@ -13,7 +13,7 @@ export default {
   methods: {
     generarPass() {
       if (this.canitdadCaracteres >= 8) {
-          this.validCantidad = false
+        this.validCantidad = false;
 
         this.resultado = "";
         const caracteres =
@@ -23,7 +23,6 @@ export default {
         for (var i = 0; i < Number(this.canitdadCaracteres); i++) {
           this.resultado += caracteres.charAt(Math.floor(Math.random() * longitud));
         }
-
       } else {
         this.validCantidad = true;
         return;
@@ -35,6 +34,9 @@ export default {
 
 <template>
   <section class="">
+    <div class="pl-5 mt-5 pt-5">
+      <v-btn depressed class="px-5" to="/">🏡 Inicio </v-btn>
+    </div>
     <main>
       <div class="micontain">
         <header>
